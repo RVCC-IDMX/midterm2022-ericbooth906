@@ -4,3 +4,4 @@ One of the core values of Raritan Valley Community College is to foster an envir
 By submitting to this repository, the student states that they have neither given nor received unauthorized aid on this assignment.
 
 Additionally, the student will, to the best of their ability, use the README of this repository to link to any resources used to complete the assignment.
+Read and Accepted.  EDB.. October 17 2022
