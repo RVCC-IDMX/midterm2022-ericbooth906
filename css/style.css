@@ -32,10 +32,10 @@ text-decoration-color: cadetblue;
     font-weight:bolder black;
     background-color: lightgrey;
     border:black 5px solid;
-    padding: 2px 1/4;
-    font: size 3px;;
+    padding: 2px;
+    font: size 8px;;
     font-variant:small-caps;
-    margin: 2rem 1/4;}
+    margin: 2rem;}
 
 /*Skill Section*/
     #skill
@@ -54,7 +54,7 @@ text-decoration-color: cadetblue;
     {display:flex;
     flex-direction: column;
     align-items: center;
-    font-family:'Calibri' 30pt;
+    font-family:'Calibri' 30pt white;
     font-variant: small-caps;
     background-color:lightslategrey; 
     border: black 5px solid;
@@ -65,7 +65,7 @@ text-decoration-color: cadetblue;
     {display:flex;
     flex-direction: column;
     align-items: center;
-    font-family:'Calibri' 1.5rem;
+    font-family:'Calibri' 3.0rem white;
     font-variant: small-caps;
     color: whitesmoke;
     font:bolder;
@@ -79,19 +79,18 @@ text-decoration-color: cadetblue;
     font-family:'Calibri';
     text-align:center;
     font-style:italic;
-    font-family:Oswald 2.5rem;
+    font-family:Oswald 8px;
     font-size:larger;}
 
     li:nth-child(2-n) {text-align: center;
         font-family:'Calibri';
         text-align:center;
-        font-style:italic;
-        font-family:Oswald 1.5rem;
+        font-family:Oswald 2.5rem;
         font-size:larger;}
 
 /*Gallery Section*/
     #gallery{
-    font-family:Oswald 1.5rem;
+    font-family:Oswald 3.0rem;
     font-variant: small-caps;
     background-color: steelblue;
     font-weight:bolder;
@@ -120,7 +119,7 @@ text-decoration-color: cadetblue;
         display:grid;
         grid-template-columns: 2fr 2fr; 
         font-variant: small-caps; 
-        width: 300px;
+        width: 150px;
         align-items:center;
         display:grid;
         grid-template-columns: 2fr 2fr;}
@@ -132,8 +131,8 @@ text-decoration-color: cadetblue;
         font-variant: small-caps; 
         padding:20px;
         align-items: center;
-        font-size: 1.5rem;
-        margin-left: 1rem;}
+        font-size: 4.0rem;
+        margin-left: 3rem;}
 
    
     /*Paragraph*/       
