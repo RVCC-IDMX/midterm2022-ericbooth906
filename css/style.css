@@ -1,7 +1,7 @@
 body{
-    font-family:Oswald;
+    font-family:"Calibri";
     background-color: lightsteelblue;
-    color: black 40pt}
+    }
 
 h1,h2,h3,h4,h5,h6
 {font-family:Arial, Helvetica, sans-serif;font-variant:small-caps; color: black;}
@@ -15,11 +15,12 @@ header {text-align: center;}
 
 /*Eric Booth Design*/
 #edb
-{font-family: Oswald;
+{font-family: 'Verdana';
 text-align: center;
 font-variant:small-caps;
+font-weight: bolder;
 text-decoration: underline wavy;
-font-size:8rem;color:black;
+font-size:5rem;color:black;
 text-decoration-color: cadetblue;
 }
 
@@ -27,12 +28,12 @@ text-decoration-color: cadetblue;
 #about {
     text-align: center;
     line-height: 1.5;
-    font-family:Oswald;
+    font-family:"Calibri";
     font-weight:bolder black;
     background-color: lightgrey;
     border:black 5px solid;
     padding: 2px 1/4;
-    font-size:larger;
+    font: size 3px;;
     font-variant:small-caps;
     margin: 2rem 1/4;}
 
@@ -41,7 +42,7 @@ text-decoration-color: cadetblue;
     {display:flex;
     flex-direction: column;
     align-items:center;
-    font-family:'Calibri' 30pt;
+    font-family:'Calibri' 30pt white;
     font-variant: small-caps;
     font:bolder;
     background-color: slategray; 
@@ -64,7 +65,7 @@ text-decoration-color: cadetblue;
     {display:flex;
     flex-direction: column;
     align-items: center;
-    font-family:'Calibri' 30pt;
+    font-family:'Calibri' 1.5rem;
     font-variant: small-caps;
     color: whitesmoke;
     font:bolder;
@@ -74,64 +75,77 @@ text-decoration-color: cadetblue;
   
     /*List*/
     #li
-    {font-family:'Calibri';
+    li:nth-child(1) {text-decoration: underline;
+    font-family:'Calibri';
     text-align:center;
     font-style:italic;
-    font-family:Oswald 40 pt;
+    font-family:Oswald 2.5rem;
     font-size:larger;}
+
+    li:nth-child(2-n) {text-align: center;
+        font-family:'Calibri';
+        text-align:center;
+        font-style:italic;
+        font-family:Oswald 1.5rem;
+        font-size:larger;}
 
 /*Gallery Section*/
     #gallery{
-    font-family:Oswald 40pt;
+    font-family:Oswald 1.5rem;
     font-variant: small-caps;
     background-color: steelblue;
-    font-weight:bolder;color: black;
+    font-weight:bolder;
+    color: black;
     border: 2.5px solid darkblue;
-    align-items: center;
+    align-items: left;
     margin:2rem;}
 
     #gallery img {
         max-width: 100%;
-        align-items: center;}
+        align-items:left;
+        text-align:left}
 
     #gallery figure { 
         display:grid;
         grid-template-columns: 2fr 1fr;     
-        padding: 10px;
-        align-items: center; 
+        padding: 5px;
+        align-items:left; 
         display:grid;
         }
-  
-    #gallery img{max-width: 100%;}
-       
-
+          
+               
     #figure{
-        text-align:left;
-        align-items: center;
+        text-align:center;
+        align-items:center;
         display:grid;
-        grid-template-columns: 2fr 1fr;}
+        grid-template-columns: 2fr 2fr; 
+        font-variant: small-caps; 
+        width: 300px;
+        align-items:center;
+        display:grid;
+        grid-template-columns: 2fr 2fr;}
+
         
     #figcaption{
-        font-family:'Calibri' 40pt;
-        color: black;}     
-         
-    
-    /*Paragraph*/
-        #para
+        font-family:'Calibri';
+        color: black;display:flex;
+        font-variant: small-caps; 
+        padding:20px;
+        align-items: center;
+        font-size: 1.5rem;
+        margin-left: 1rem;}
+
+   
+    /*Paragraph*/       
+  #para
         {color: darkblue;
-        text-align: center;
+        text-align: left;
         background-color: cadetblue;
         border: 2.5px solid darkblue;
         padding: 10px;
-        font-size: 20pt;}
-       
-
-        #gallery h2 {
-        grid-column: 1/-1;}
-
-        #figure {
-        font-family:'Calibri';color: black 30px;
-        display: block;}
+        font-size: 1.5rem;}
+  
+      
 
      /*Footer Section*/
         #footer 
