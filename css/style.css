@@ -1,17 +1,27 @@
 body{
-    font-family:oswald;
+    font-family:Oswald;
     background-color: lightsteelblue;
     color: black 40pt}
 
 h1,h2,h3,h4,h5,h6
-    {font-family:Arial, Helvetica, sans-serif;font-variant:small-caps; color: black;}
-h1 {font-size:40pt;text-align: center; font-variant: small-caps; color: black;}
-h2 {font-size:40pt;text-align: center; margin: .1em; color: black; padding: 50px;}
-h3 {font-size:30pt;text-align: center; color: black;}
-h4 {font-size:20pt;text-align: left;color: black;}
+{font-family:Arial, Helvetica, sans-serif;font-variant:small-caps; color: black;}
+h1 {font-size:40pt;text-align: center; font-variant: small-caps; color:black;}
+h2 {font-size:30pt;text-align: center; margin: .1em; color: black; padding: 50px;}
+h3 {font-size:20pt;text-align: center; color: black;}
+h4 {font-size:12pt;text-align: center;color: darkslategrey;}
 
 h2 {text-align:center margin 1rem}
 header {text-align: center;}
+
+/*Eric Booth Design*/
+#edb
+{font-family: Oswald;
+text-align: center;
+font-variant:small-caps;
+text-decoration: underline wavy;
+font-size:8rem;color:black;
+text-decoration-color: cadetblue;
+}
 
 /*About the Company Section*/
 #about {
@@ -21,16 +31,17 @@ header {text-align: center;}
     font-weight:bolder black;
     background-color: lightgrey;
     border:black 5px solid;
-    padding:30px;
+    padding: 2px 1/4;
     font-size:larger;
     font-variant:small-caps;
-    margin: 2rem;}
+    margin: 2rem 1/4;}
 
 /*Skill Section*/
     #skill
     {display:flex;
-    align-items: center;
-    font-family:'Calibri' 40pt;
+    flex-direction: column;
+    align-items:center;
+    font-family:'Calibri' 30pt;
     font-variant: small-caps;
     font:bolder;
     background-color: slategray; 
@@ -63,7 +74,9 @@ header {text-align: center;}
   
     /*List*/
     #li
-    {text-align:center;
+    {font-family:'Calibri';
+    text-align:center;
+    font-style:italic;
     font-family:Oswald 40 pt;
     font-size:larger;}
 
@@ -105,9 +118,9 @@ header {text-align: center;}
     
     /*Paragraph*/
         #para
-        {color: silver;
+        {color: darkblue;
         text-align: center;
-        background-color: black;
+        background-color: cadetblue;
         border: 2.5px solid darkblue;
         padding: 10px;
         font-size: 20pt;}
@@ -124,8 +137,8 @@ header {text-align: center;}
         #footer 
         {text-align: center;
         font-family:Oswald;
-        background-color: grey;
-        border: 1.5px solid darkblue;
+        background-color: cadetblue;
+        border: 2.5px solid black;
         padding: 10px;
         font-size: 12pt;
         font-variant: small-caps;
