@@ -15,7 +15,7 @@ header {text-align: center;}
 
 /*Eric Booth Design*/
 #edb
-{font-family:'Tahoma';
+{font-family:'Tahoma' 30pt;
 text-align: center;
 font-variant:small-caps;
 font-weight: bolder;
@@ -27,8 +27,7 @@ text-decoration-color: cadetblue;
 /*About the Company Section*/
 #about {
     text-align: center;
-    line-height: 30pt;
-    font-family:"Calibri" 24pt;
+    font-family:"Calibri" 40pt;
     font-weight:bolder black;
     background-color: lightgrey;
     border:black 5px solid;
@@ -46,7 +45,7 @@ text-decoration-color: cadetblue;
     font:bolder;
     background-color: slategray; 
     border:black 5px solid;
-    margin:2rem;}
+    }
 
 /*Customer Section*/
     #customer
@@ -76,7 +75,7 @@ text-decoration-color: cadetblue;
 
     ul.no-bullets {
         list-style-type: none; /* Remove bullets */
-        padding: 0; /* Remove padding */
+         /* Remove padding */
         margin: 0; /* Remove margins */}
 
     #li
@@ -125,25 +124,8 @@ text-decoration-color: cadetblue;
     color: black;
     font-variant: small-caps; 
     align-items: center;
-    font-size: 6.0Srem;
+    font-size:10rem;
     margin-left: 1rem;}
-    
-    
-    font-family:Oswald 8.0rem;
-    font-variant: small-caps;
-    background-color: steelblue;
-    font-weight:bolder;
-    color: slategray;
-    display:grid;
-    grid-template-columns: 1fr 2fr;
-    border: 2.5px solid darkblue;
-    align-items: center;
-    margin:2rem;}
-
-             
-               
-    
-        
     
    
     /*Paragraph*/       
@@ -168,3 +150,19 @@ text-decoration-color: cadetblue;
         font-variant: small-caps;
         color: black;}
 
+
+
+
+
+
+        font-family:Oswald 8.0rem;
+        font-variant: small-caps;
+        background-color: steelblue;
+        font-weight:bolder;
+        color: slategray;
+        display:grid;
+        grid-template-columns: 1fr 2fr;
+        border: 2.5px solid darkblue;
+        align-items: center;
+        margin:2rem;}
+    
