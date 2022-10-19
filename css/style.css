@@ -1,5 +1,5 @@
 body{
-    font-family:"Calibri";
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: lightsteelblue;
     }
 
@@ -12,7 +12,6 @@ h4 {font-size:20pt;text-align: center;color: steelblue; font-stretch: expanded;}
 h5 {font-size:14pt;text-align: center;color: black;}
 
 header {text-align: center;}
-
 
 /*Eric Booth Design*/
 #edb
@@ -34,6 +33,7 @@ font-size:5rem;color:black;}
     border:black 5px double;
     padding: 10px;
     font-variant:small-caps;
+    font-size: larger;
     margin: 30px;
     border-radius: 15px}
 
@@ -45,6 +45,7 @@ font-size:5rem;color:black;}
     font-family:'Calibri' 30pt white;
     font-variant: small-caps;
     font:bolder;
+    font-size: larger;
     background-color: slategray; 
     border:black 5px double;
     margin: 10px;
@@ -57,6 +58,7 @@ font-size:5rem;color:black;}
      flex-direction: column;
     align-items: center;
     font-family:'Calibri' 30pt white;
+    font-size: larger;
     font-variant: small-caps;
     background-color:lightslategrey; 
     border: black 5px double;
@@ -72,6 +74,7 @@ font-size:5rem;color:black;}
     font-variant: small-caps;
     color: whitesmoke;
     font:bolder;
+    font-size: larger;
     background-color: steelblue; 
     border:black 5px double;
     margin: 10px;
@@ -88,6 +91,7 @@ font-size:5rem;color:black;}
     li:nth-child(1) {text-decoration: underline;
     font-family:'Calibri';
     text-align:center;
+    font-size:x-large;
     font-style:italic;
     font-family:Oswald 6.0rem;
     font-size:larger;}
@@ -100,48 +104,40 @@ font-size:5rem;color:black;}
 
 /*Gallery Section*/
     #gallery{
+        display:flex;
+        flex-direction: column;
         border: 5px solid black;
         align-items: center;
-    }
+        margin: 30px;
+        border-radius: 15px}
+    
+
+    #gallery img {max-width:100%; align-items: center;}
 
     #gallery figure { 
-            text-align:grid;
-            grid-template-columns: 1fr 1fr;     
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+            text-align:left;           
             padding: 10px;
+            font-family:'Calibri';
+            font-size: larger;
             font-variant: small-caps;
-            align-items:center; 
-            display:grid;
+    
             }
     
-    #gallery img {max-width:100%;}
-
-    #figure{
-        text-align:center;
+    #figcaption {
+        display:flex;
+        flex-direction: column;
+             
+       font-family:'Calibri';
+        font-size: larger;
+        color: black;
         font-variant: small-caps; 
-        width: 300px;
-        align-items:center;
-        display:grid;
-        grid-template-columns: 1fr 1fr;}
-
-    #figcaption{
-    display: flex;
-    justify-content: cadetblue;
-    font-family:'Calibri' 40pt;
-    color: black;
-    font-variant: small-caps; 
-    align-items: left;
-    padding: left 50px;}
+        align-items:left;
+        padding: left 20px;}
     
-   
-    /*Paragraph*/       
-  #para
-        {color: darkblue;
-        text-align: left;
-        background-color: cadetblue;
-        border: 2.5px solid darkblue;
-        padding: 10px;
-        font-size: 1.5rem;}
-  
+    
      /*Footer Section*/
         #footer 
         {text-align: center;
@@ -149,7 +145,17 @@ font-size:5rem;color:black;}
         background-color: cadetblue;
         border: 2.5px solid black;
         padding: 10px;
-        font-size: 12pt;
+        font: size 16pt;
         font-variant: small-caps;
         color: black;}
+
+
+            /*Paragraph*/       
+  #para
+  {color: white;
+  text-align: left;
+  background-color: cadetblue;
+  border: 2.5px solid darkblue;
+  padding: 10px;
+  font-size: 3.0rem;}
 
