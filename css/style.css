@@ -25,6 +25,19 @@ font-size:5rem;color:black;
 text-decoration-color: cadetblue;
 }
 
+/*Dropcaps*/
+#edb div p:first-child:first-letter{
+    color:slategrey;
+    float:left;
+    font: size 150%;
+    padding:.25em;
+    margin:.25em;
+    line-height: .50;
+    border:2px black;
+    background-color: steelblue;}
+
+
+
 /*About the Company Section*/
 #about {
     text-align: center;
@@ -100,7 +113,7 @@ text-decoration-color: cadetblue;
     }
 
     #gallery figure { 
-            display:grid;
+            text-align:grid;
             grid-template-columns: 2fr 2fr;     
             padding: 10px;
             font-variant: small-caps;
@@ -108,7 +121,7 @@ text-decoration-color: cadetblue;
             display:grid;
             }
     
-    #gallery img {max-width: 100%;}
+    #gallery img {max-width:100%;}
 
     #figure{
         text-align:center;
@@ -143,7 +156,7 @@ text-decoration-color: cadetblue;
      /*Footer Section*/
         #footer 
         {text-align: center;
-        font-family:Oswald;
+        font-family:"Tahoma";
         background-color: cadetblue;
         border: 2.5px solid black;
         padding: 10px;
